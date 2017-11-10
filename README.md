@@ -10,7 +10,7 @@ Con el objetivo de generar mejorar la focalización de programas, es importante 
 - `R`
 - `shiny`
 
-** Además: **
+Además:
 - `nltk`
 - `gensim`
 
