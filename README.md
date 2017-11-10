@@ -4,6 +4,9 @@
 Con el objetivo de generar mejorar la focalización de programas, es importante conocer los programas sociales para poder hacer recomendaciones de programas o temáticas que vayan enfocadas tanto a los principales riesgos de los municipios o estados como a los objetivos de desarrollo sostenible.
 
 ## Datos
+Objetivos generales y específicos de los programas sociales federales obtenidos a partir del Cuestionario Único para el Análisis de Programas Sociales (SEDESOL, 2016). Actualmente se cuenta con 43/115 programas a nivel federal.
+
+Los datos pueden descargarse [aquí](https://s3-us-west-2.amazonaws.com/sedesol-open-data/cuaps_sedesol.csv)
 
 ## Requisitos
 - `python 3.6` o superior
