@@ -6,9 +6,9 @@ Con el objetivo de generar mejorar la focalización de programas, es importante 
 ## Datos
 
 ## Requisitos
-- =python 3.6= o superior
-- =R=
-- =shiny=
+- `python 3.6` o superior
+- `R`
+- `shiny`
 
 Además:
 - 
