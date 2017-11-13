@@ -1,4 +1,4 @@
-# Text Analysis for Social Programs in Mexico
+# Análisis de Texto para Programas Sociales
 
 ## Introducción
 Con el objetivo de generar mejorar la focalización de programas, es importante conocer los programas sociales para poder hacer recomendaciones de programas o temáticas que vayan enfocadas tanto a los principales riesgos de los municipios o estados como a los objetivos de desarrollo sostenible.
