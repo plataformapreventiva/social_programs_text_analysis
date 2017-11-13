@@ -4,7 +4,7 @@
 Con el objetivo de generar mejorar la focalización de programas, es importante conocer los programas sociales para poder hacer recomendaciones de programas o temáticas que vayan enfocadas tanto a los principales riesgos de los municipios o estados como a los objetivos de desarrollo sostenible.
 
 ## Datos
-Objetivos generales y específicos de los programas sociales federales obtenidos a partir del Cuestionario Único para el Análisis de Programas Sociales (SEDESOL, 2016). Actualmente se cuenta con 43/115 programas a nivel federal.
+Objetivos generales y específicos de los programas sociales federales obtenidos a partir del Cuestionario Único para el Análisis de Programas Sociales (SEDESOL, 2016). Actualmente se cuenta con 43/149 programas a nivel federal.
 
 Los datos pueden descargarse [aquí](https://s3-us-west-2.amazonaws.com/sedesol-open-data/cuaps_sedesol.csv)
 
@@ -18,16 +18,27 @@ Además:
 - `gensim`
 
 ## Estructura
-
+- `etl:` directorio que contiene la ingesta de información
+    - ingest_texts.txt ingesta del texto, transformación y unión del texto para cada programa
+- `data:` directorio que contiene archivos de texto utilizados en el análisis
+    - stop.txt: contiene las palabras a excluir en el ánalisis que no cuentan con significado semántico para el contexto
+- `docs:` jupyter notebooks que explican los pasos seguidos
+- `scripts:` 
 
 ### Instrucciones
 
 ## Avances
-Se genera un análisis de texto con los objetivos generales y específicos de los programas para agrupar a las palabras en diferentes temas. Los temas se crean a partir del número de ocurrencias entre palabras dentro de cada documento- Cada programa puede estar representado en uno o más temas. 
 
-Además, se genera un modelo para encontrar similitud entre programas sociales con el objetivo de evitar duplicidades y crear mayor colaboración entre unidades ejecutoras. 
+- Análisis de tópicos:
+Se generan tópicos por medio de Latent Dirichlet Allocation.
+
+- Medidas de Similitud
+Doc2vec 
 
 ## Siguientes Pasos
+- Analizar distribución de cobertura de programas similar
+- Ampliar a más programas
+- Ampliar análisis a ms niveles: estatal y municipal
 
 ### ¿Cómo Constribuir?
 
